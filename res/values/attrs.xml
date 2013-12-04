@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DataGridView">
+        <attr name="readOnly" format="boolean" />
+        <attr name="hasHeader" format="boolean" />
+        <attr name="coloryRows" format="boolean" />
+        <attr name="oddColor" format="color" />
+        <attr name="evenColor" format="color" />
+    </declare-styleable>
+
+    <attr name="dataGridViewStyle" format="reference" />
+    <attr name="dataGridHeaderStyle" format="reference" />
+    <attr name="dataGridFieldStyle" format="reference" />
+    <attr name="dataGridRowDividerStyle" format="reference" />
+
+</resources>
